@@ -32,7 +32,7 @@ align-items: center;
 }
     #item-div-1{
     display: flex;
-    width: 996px;
+    width: 1060px;
     height: 44px;
     padding-right: 0px;
     justify-content: center;
@@ -105,6 +105,7 @@ align-items: center;
     display: flex;
     flex-direction: column;
     height: 1134.5px;
+    width: 1512px;
     padding: 113px 266px 0px 266px;
     justify-content: center;
     align-items: center;
@@ -323,6 +324,7 @@ margin:0 10px;
 
 /* main body part-3 */
 #body-3{
+    width: 1512px;
     height: 830px;
     display: flex;
     justify-content: center;
@@ -330,6 +332,7 @@ margin:0 10px;
     margin:10px 262px 10px 126px;
 }
 #body-3 ul{
+    
     justify-content: center;
     align-items: center;
 list-style-type: none;
@@ -1921,7 +1924,6 @@ align-items: flex-start;
 width: 1024px;
 height: 3301.531px;
 flex-shrink: 0;
-background: white;
 padding :30px 30px;
 }
 .bottom-page p{
@@ -1950,4 +1952,172 @@ font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 16px; /* 133.337% */
+}
+.main-footer-section{
+    display: flex;
+    flex-direction: column;
+    width: 960px;
+}
+.footer-section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 960px;
+    height:500px;
+}
+ .footer-1{
+    display: flex;
+    width: 960px;
+    height: 57.344px;
+    flex-shrink: 0;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1.5px solid #6e6e737b;
+ }
+ #arrow-footer{
+margin:0 10px 0 10px;
+ }
+ .footer-2{
+    display: flex;
+    width: 960px;
+    /* height: 57.344px; */
+    flex-shrink: 0;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* background-color: aquamarine; */
+ }
+ .sub-footer-content{  
+display:flex;
+flex-direction:column;
+ color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+flex-shrink: 0;
+width: 176px;
+height: 35px;
+margin-right:20px;
+ }
+.footer-content-title{
+    display: flex;
+width: 91.969px;
+height: 14px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #1D1D1F;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px; /* 133.337% */
+letter-spacing: -0.12px;
+margin-top: 10px;
+}
+.footer-content{
+    width:300px;
+    display: flex;
+padding: 1px 107.566px 1px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 11.594px;
+flex-shrink: 0;
+margin-top:10px;
+}
+.footer-end{
+    width: 960px;
+    height: 57.344px;
+    flex-shrink: 0;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+.trail{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    width: 960px;
+height: 44px;
+flex-shrink: 0;
+}
+
+.footer-end{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 960px;
+    border-top:1.5px solid #6e6e737b;
+    padding-top:5px;
+    
+}
+.footer-end ul{
+    display:flex;
+    justify-content: left;
+    list-style-type: none;
+    width: 960px;
+    
+}
+.footer-end ul li{
+    display:flex;
+    display: flex;
+flex-shrink: 0;
+color: #424245;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+margin:0 5px;
+    
+}
+.footer-end-1{
+    display: flex;
+width: 500px;
+height: 14px;
+flex-direction: column;
+justify-content: center;
+color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+margin-right:10px;
+}
+.footer-end-2{
+    display: flex;
+width: 410px;
+height: 14px;
+flex-direction: column;
+justify-content: right;
+color: #6E6E73;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+text-align:right;
+padding-right:10px;
+line-height: 16px; /* 133.337% */
+}
+#line-seperator{
+    width: 980px;
+height: 25px;
+flex-shrink: 0;
+stroke-width: 1px;
+stroke: #D2D2D7;
+
+}
+.footer-align{
+    display: flex;
 }
