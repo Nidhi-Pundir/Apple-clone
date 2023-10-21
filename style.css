@@ -98,7 +98,10 @@ align-items: center;
     line-height: 12px; /* 120% */
     letter-spacing: -0.08px;
  }
-/* body section main part */
+ #search{
+    display:flex;
+    padding-top:43px;
+}/* body section main part */
 
 
 .body-section{
@@ -1037,6 +1040,7 @@ align-items: center;
 border-radius: 980px;
 background: #0071E3;
 margin: 45px 0 30px 0;
+text-decoration: none;
 }
 .container-end{
 display: flex;
